@@ -5,4 +5,4 @@ WORKDIR /app
 COPY ./server /app/
 EXPOSE 80
 
-CMD ["/app/server -p 80"]
+CMD ["/app/server" "-p 80"]
